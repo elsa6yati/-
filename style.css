@@ -222,6 +222,14 @@ button, input {
     display: block;
 }
 
+#mark img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    object-position: center; /* Ensures it is centered inside the container */
+    display: block;
+}
+
 /* Hero Section */
 .hero {
     min-height: 480px;
